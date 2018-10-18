@@ -1,0 +1,238 @@
+﻿body {
+    padding: 8px;
+    background: #6495ED url(../images/pizza_steve3.png) center top;
+}
+
+.container {
+    opacity: 0.95;
+}
+
+div {
+    display: block;
+}
+
+#menuBG {
+    margin: 0% auto;
+    width: 650px;
+}
+
+#menuBG>h1 {
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    color: blue;
+    background-color: silver;
+    border: 4px solid black;
+    border-radius: 20px;
+    text-shadow: 1.5px 1.5px 5px aliceblue;
+    margin: -2% 0 0 auto;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-weight: bold;
+    padding: 10px 0 20px 0;
+}
+
+form {
+    display: block;
+    margin-top: 0;
+}
+
+#frmMenu {
+    margin: 0% auto;
+    width: 600px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: stretch;
+    border-radius: 20px;
+}
+
+.menu {
+    flex: 1 200px;
+    min-width: 0px;
+    border: 2px solid black;
+    margin-top: 2%;
+   /* box-shadow: 0 0 0 3px rgb(128, 128, 128); */
+    color: black;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+.menu>h3 {
+    color: aliceblue;
+    padding: 0 0 0px 10px;
+    margin: 0 auto;
+    background-color: midnightblue;
+    border-radius: 20px 20px 0 0;
+    text-shadow: 1.5px 1.5px 5px blue;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    font-size: 22px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.menu:nth-child(odd) {
+    font-size: 18px;
+    background-color: silver;
+    border-radius: 20px;
+}
+
+.menu:nth-child(even) {
+    font-size: 18px;
+    background-color: silver;
+    border-radius: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 1% 1% 1%;
+    width: 600px;
+}
+
+/*    .controls > .button {
+        flex: 1 250px;
+        height: 50px;
+    } */
+
+.button {
+    cursor: pointer;
+    color: aliceblue;
+    flex: 1 75px;
+    width: 300px;
+    height: 70px;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 1%;
+    padding: .1px 0 .1px 0px;
+    font: 18px sans-serif;
+    background-color: midnightblue;
+    box-shadow: 0 0 0 3px rgb(128, 128, 128);
+    transition: background .3s, color .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.button:hover {
+    background-color: silver;
+    color: black;
+}
+
+.button>p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+}
+
+#cart {
+    opacity: 1;
+    margin: 15px auto;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: silver;
+    border: 2px solid black;
+    box-shadow: 0 0 0 3px rgb(128, 128, 128);
+    border-radius: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+#title1 {
+    color: aliceblue;
+    flex: 1 250px;
+    height: 70px;
+    width: 300px;
+    padding: 0 0 0px 10px;
+    background-color: midnightblue;
+    border-radius: 0 0 0 0;
+    text-shadow: 1.5px 1.5px 5px blue;
+}
+
+#title2 {
+    color: aliceblue;
+    flex: 1 250px;
+    height: 70px;
+    width: 300px;
+    padding: 0 0 0px 10px;
+    background-color: midnightblue;
+    border-radius: 0 0 0 0;
+    text-shadow: 1.5px 1.5px 5px blue;
+}
+
+#title3 {
+    color: aliceblue;
+    flex: 1 600px;
+    height: 50px;
+    width: 300px;
+    padding: 0 0 20px 10px;
+    background-color: silver;
+    border-radius: 20px 20px 0 0;
+    text-shadow: 1.5px 1.5px 5px blue;
+}
+
+.price {
+    float: right;
+}
+
+.fa-shopping-cart {
+    color: aliceblue;
+    padding-right: 10px;
+}
+
+#showText1 {
+    font-size: 18px;
+    flex: 1 250px;
+    padding: 1px 0 10px 10px;
+    width: 250px;
+    border-radius: 0;
+}
+
+#showText2 {
+    font-size: 18px;
+    flex: 1 250px;
+    padding: 1px 0 10px 10px;
+    width: 250px;
+    border-radius: 0;
+}
+
+#totalPrice1 {
+    flex: 1 250px;
+    padding: 1px 0 10px 10px;
+    width: 250px;
+    border-top: 1px solid;
+    border-radius: 0;
+}
+
+#totalPrice2 {
+    flex: 1 250px;
+    font-weight: bold;
+    padding: 1px 0 10px 10px;
+    width: 250px;
+    border-top: 1px solid;
+    border-radius: 0;
+}
